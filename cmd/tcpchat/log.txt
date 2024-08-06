@@ -1,0 +1,13 @@
+2024/08/05 08:55:18 Creating new server instance
+2024/08/05 08:55:18 Server Run method started
+2024/08/05 08:55:18 Server is now listening for connections
+2024/08/05 08:55:18 Waiting for a new connection...
+2024/08/05 08:55:29 New connection accepted from 127.0.0.1:34724
+2024/08/05 08:55:29 Waiting for a new connection...
+2024/08/05 08:55:29 New connection established from 127.0.0.1:34724
+2024/08/05 08:55:32 [2024-08-05 08:55:32][t]:d
+
+2024/08/05 08:55:33 [2024-08-05 08:55:33][t]:f
+
+2024/08/05 08:55:33 t has left our chat...
+
