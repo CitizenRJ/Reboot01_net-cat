@@ -1,13 +1,21 @@
-2024/08/05 08:55:18 Creating new server instance
-2024/08/05 08:55:18 Server Run method started
-2024/08/05 08:55:18 Server is now listening for connections
-2024/08/05 08:55:18 Waiting for a new connection...
-2024/08/05 08:55:29 New connection accepted from 127.0.0.1:34724
-2024/08/05 08:55:29 Waiting for a new connection...
-2024/08/05 08:55:29 New connection established from 127.0.0.1:34724
-2024/08/05 08:55:32 [2024-08-05 08:55:32][t]:d
+2024/08/04 16:42:58 Creating new server instance
+2024/08/04 16:42:58 Server Run method started
+2024/08/04 16:42:58 Server is now listening for connections
+2024/08/04 16:42:58 Waiting for a new connection...
+2024/08/04 16:42:59 New connection accepted from 10.1.201.193:37324
+2024/08/04 16:42:59 Waiting for a new connection...
+2024/08/04 16:42:59 New connection established from 10.1.201.193:37324
+2024/08/04 16:43:02 New connection accepted from 127.0.0.1:47662
+2024/08/04 16:43:02 Waiting for a new connection...
+2024/08/04 16:43:02 New connection established from 127.0.0.1:47662
+2024/08/04 16:43:06 [2024-08-04 16:43:06][f]:jpf
 
-2024/08/05 08:55:33 [2024-08-05 08:55:33][t]:f
+2024/08/04 16:43:08 [2024-08-04 16:43:08][d]:gdg
 
-2024/08/05 08:55:33 t has left our chat...
+2024/08/04 16:43:12 New connection established from 10.1.201.193:37324
+2024/08/04 16:44:42 [2024-08-04 16:44:42][k]:gr
+
+2024/08/04 16:44:44 k has left our chat...
+
+2024/08/04 16:44:46 d has left our chat...
 

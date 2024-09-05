@@ -56,6 +56,7 @@ func (s *Server) Run() error {
 func (s *Server) SendMessageHistory(client *Client) {
 	s.historyMutex.Lock()
 	defer s.historyMutex.Unlock()
+
 	for _, msg := range s.history.Messages {
 		client.Outbox <- msg
 	}
@@ -64,11 +65,15 @@ func (s *Server) SendMessageHistory(client *Client) {
 func (s *Server) BroadcastMessage(message string, sender *Client) {
 	s.mutex.Lock()
 	defer s.mutex.Unlock()
+
+	// Log the message
 	log.Println(message)
+
+	// Add the message to history
 	s.history.Messages = append(s.history.Messages, message)
+
 	for client := range s.clients {
-		if client.Conn != sender.Conn {
-			client.Conn.Write([]byte(message))
+		if client != sender {
 			select {
 			case client.Outbox <- message:
 			default:
